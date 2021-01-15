@@ -17,7 +17,7 @@ import { reducer } from './store/lista.reducer';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    StoreModule.forRoot({korisnik: reducer})
+    StoreModule.forRoot({lista: reducer})
   ],
   providers: [],
   bootstrap: [AppComponent]
